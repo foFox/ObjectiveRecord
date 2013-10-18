@@ -15,7 +15,7 @@
 //  Do not use any other context inside the block, that was not created inside that block.
 //  Do not pass existing NSManagedObjects directly to the block, but rather use ObjectID's & backgroundContext to do so.
 //  When creating/dealing with NSManagedObjects use the 'inContext:' method variants and pass backgroundContext. (VERY IMPORTANT).
-//  Do not call this method from anyother thread than main thread.
+//  Do not call this method from any other thread than main thread.
 
 +(void)performInBackground:(void(^)(NSManagedObjectContext *backgroundContext))job;
 @end
