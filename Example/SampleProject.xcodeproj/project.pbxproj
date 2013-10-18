@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		496F953D174CCCBA00220FD1 /* OBRPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F953C174CCCBA00220FD1 /* OBRPerson.m */; };
+		716D61CC1811793D00858EEF /* BackgroundContextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716D61CB1811793D00858EEF /* BackgroundContextTests.m */; };
 		892C1E91165D54160077F2CB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 892C1E90165D54160077F2CB /* Default-568h@2x.png */; };
 		8956CE641754EE6A00BD551C /* MappingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8956CE631754EE6A00BD551C /* MappingsTests.m */; };
 		89702F25173E57AA00149BD5 /* SampleProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89F1EEBB15A4C73B00AE4FB4 /* SampleProject.xcdatamodeld */; };
@@ -48,6 +49,7 @@
 		0EE71E2B92554B48A0914E08 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		496F953B174CCCBA00220FD1 /* OBRPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRPerson.h; sourceTree = "<group>"; };
 		496F953C174CCCBA00220FD1 /* OBRPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRPerson.m; sourceTree = "<group>"; };
+		716D61CB1811793D00858EEF /* BackgroundContextTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundContextTests.m; sourceTree = "<group>"; };
 		892C1E90165D54160077F2CB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8956CE631754EE6A00BD551C /* MappingsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MappingsTests.m; sourceTree = "<group>"; };
 		897AD0BF1758CFD8006869BA /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
@@ -194,6 +196,7 @@
 				897D09FD15B0945400722A8F /* FindersAndCreatorsTests.m */,
 				8956CE631754EE6A00BD551C /* MappingsTests.m */,
 				8990C3151785C2F500212182 /* CoreDataManagerTests.m */,
+				716D61CB1811793D00858EEF /* BackgroundContextTests.m */,
 			);
 			path = SampleProjectTests;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				897D09FE15B0945400722A8F /* FindersAndCreatorsTests.m in Sources */,
+				716D61CC1811793D00858EEF /* BackgroundContextTests.m in Sources */,
 				89702F25173E57AA00149BD5 /* SampleProject.xcdatamodeld in Sources */,
 				8956CE641754EE6A00BD551C /* MappingsTests.m in Sources */,
 				8990C3161785C2F500212182 /* CoreDataManagerTests.m in Sources */,
